@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olhar de Fora · Diagnóstico Época Baixa</title>
+<meta name="description" content="A inteligência artificial recomenda o seu hotel na época baixa? Diagnóstico de 149 €, em português, entregue em 48 horas.">
+<meta property="og:title" content="A inteligência artificial recomenda o seu hotel na época baixa?">
+<meta property="og:description" content="Diagnóstico Época Baixa: 149 €, em português, entregue em 48 horas. Só paga depois de o receber.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://olhardefora.pt/">
+<meta property="og:image" content="https://olhardefora.pt/assets/partilha.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F7F3EC">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon-180.png">
+<link rel="preload" as="image" href="assets/fotos/douro-anoitecer-2400.jpg" imagesrcset="assets/fotos/douro-anoitecer-1200.jpg 1200w, assets/fotos/douro-anoitecer-2400.jpg 2400w" imagesizes="100vw">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1F3A4D;--ink-deep:#16293A;--terra:#A84A28;--slate:#5B6B75;--cream:#F7F3EC;--sand:#EDE6DA;
+  --paper:#FFFFFF;--hair:#DCD5C8;--wash:#F2F1EE;--apricot:#F2B49A;--mist:#DCE6EE;
+  --inset:12px;--radius:16px;--wrap:1160px;--gut:clamp(20px,4vw,48px);
+  --display:'Fraunces',Georgia,serif;--text:'Source Sans 3',system-ui,sans-serif;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--text);font-size:18px;line-height:1.6;font-variant-numeric:tabular-nums lining-nums}
+::selection{background:var(--apricot);color:var(--ink)}
+img{display:block;max-width:100%}
+a{color:var(--ink);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+a[href^="tel:"]{white-space:nowrap}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:4px}
+.on-photo :focus-visible{outline-color:var(--cream)}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
+p{margin:0 0 14px;text-wrap:pretty}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
+.star{display:block;margin:0 auto}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:6px;font-weight:600;font-size:17px;text-decoration:none;transition:background-color .2s var(--ease),color .2s var(--ease),border-color .2s var(--ease)}
+.btn-cream{background:var(--cream);color:var(--ink-deep)}
+.btn-cream:hover{background:var(--paper)}
+.btn-ghost{border:1px solid rgba(247,243,236,.7);color:var(--cream)}
+.btn-ghost:hover{background:rgba(247,243,236,.12);border-color:var(--cream)}
+
+.panel{position:relative;margin:var(--inset);border-radius:var(--radius);overflow:hidden;color:var(--cream);isolation:isolate}
+.panel>picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.panel::after{content:"";position:absolute;inset:0;background:rgba(18,28,36,.46);z-index:-1}
+
+.hero{min-height:min(calc(100svh - 2*var(--inset)),940px);display:flex;flex-direction:column}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px clamp(18px,3vw,36px)}
+.nav img{width:200px;height:auto}
+.hero-body{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px var(--gut) 40px}
+.hero h1{font-size:clamp(42px,7.4vw,108px);line-height:1.02;letter-spacing:-.02em;font-variation-settings:'opsz' 144;font-weight:350;max-width:13ch;margin-top:22px}
+.hero .lede{max-width:560px;margin:26px auto 0;color:#EEF2F4;font-size:clamp(17px,1.4vw,19px)}
+.hero .offer{margin-top:26px}
+.hero .price{font-family:var(--display);font-size:clamp(22px,2vw,26px);font-weight:500;margin:0}
+.hero .terms{color:#EEF2F4;margin:4px 0 0}
+.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:24px}
+.alt{margin:14px 0 0;font-size:16px;color:#EEF2F4}
+.alt a{color:var(--cream)}
+.cue{align-self:center;margin-bottom:18px;color:var(--cream);display:flex;padding:10px}
+.cue svg{transition:transform .3s var(--ease)}
+.cue:hover svg{transform:translateY(3px)}
+
+.statement{text-align:center;padding:clamp(80px,11vw,140px) var(--gut) clamp(56px,7vw,88px)}
+.statement>p{font-family:var(--display);font-variation-settings:'opsz' 72;font-weight:350;font-size:clamp(28px,3.6vw,46px);line-height:1.22;letter-spacing:-.01em;max-width:22ch;margin:22px auto 0;text-wrap:balance}
+.stack{position:relative;max-width:820px;margin:clamp(40px,5vw,64px) auto 0;padding:18px 0}
+.stack::before,.stack::after{content:"";position:absolute;inset:18px 0;border-radius:var(--radius);background:var(--paper);border:1px solid var(--hair)}
+.stack::before{transform:rotate(-3.2deg) translate(-10px,6px);background:var(--sand)}
+.stack::after{transform:rotate(1.8deg) translate(8px,4px)}
+.figure{position:relative;z-index:1;margin:0;background:var(--paper);border:1px solid var(--hair);border-radius:var(--radius);padding:26px clamp(20px,3.4vw,40px) 24px;text-align:left}
+.fig-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;border-top:1px solid var(--hair);padding-top:10px}
+.fig-cap{font-size:15px;margin:0;flex:1 1 300px}
+.fig-cap b{font-weight:700}
+.figure>.fig-cap{border-top:1px solid var(--hair);padding-top:10px}
+.pill{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--paper);background:var(--slate);border-radius:4px;padding:3px 9px;white-space:nowrap}
+.fig-title{font-family:var(--display);font-weight:500;font-size:clamp(21px,2.4vw,27px);line-height:1.22;margin:14px 0;letter-spacing:-.01em}
+.fig-title em{font-style:normal;color:var(--terra)}
+.bars{list-style:none;margin:0;padding:0}
+.bars li{display:grid;grid-template-columns:minmax(110px,170px) 1fr 44px;align-items:center;gap:12px;padding:6px 0}
+.bars .lbl{font-size:16px}
+.bars .track{height:14px;background:var(--wash);border-radius:2px;overflow:hidden}
+.bars .bar{display:block;height:100%;background:var(--ink)}
+.hero h1,.hero .price,.title,.band h2,.close h2,.card h2,.fig-title,.statement>p,.name{font-variant-numeric:proportional-nums lining-nums}
+.bars .val{font-variant-numeric:tabular-nums lining-nums;font-family:var(--display);font-weight:500;font-size:19px;text-align:right}
+.bars .me .lbl,.bars .me .val{color:var(--terra);font-weight:700}
+.bars .me .bar{background:var(--terra)}
+.src{font-size:14px;color:var(--slate);margin:14px 0 0;line-height:1.45}
+
+.title{font-family:var(--display);font-variation-settings:'opsz' 96;font-weight:350;text-transform:uppercase;letter-spacing:.015em;font-size:clamp(28px,3.4vw,44px);line-height:1.08}
+.rule{display:block;width:48px;height:1px;background:currentColor;margin:22px 0 24px;opacity:.6}
+
+.row{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,96px);align-items:center;padding:clamp(56px,8vw,112px) 0}
+.row.flip>.media{order:2}
+.media{border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5;background:var(--sand)}
+.media img{width:100%;height:100%;object-fit:cover;filter:saturate(.82) brightness(.96)}
+.row-quem{grid-template-columns:300px 1fr;gap:72px}
+.portrait{max-width:300px;width:100%;aspect-ratio:4/5;justify-self:center;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-size:88px;font-weight:300;color:var(--ink)}
+.name{font-family:var(--display);font-weight:500;font-size:24px;margin-bottom:8px}
+.copy{max-width:520px}
+.list{list-style:none;margin:0 0 22px;padding:0;border-top:1px solid var(--hair)}
+.list li{padding:12px 0;border-bottom:1px solid var(--hair)}
+.note{color:var(--slate)}
+.row .figure{padding:22px clamp(18px,2.6vw,30px) 20px}
+.mensal-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.4fr);gap:clamp(32px,6vw,96px);padding:clamp(48px,6vw,80px) 0;border-top:1px solid var(--hair)}
+.mensal .title{font-size:clamp(24px,2.6vw,34px)}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);margin:0 0 12px}
+.list.cols{display:grid;grid-template-columns:1fr 1fr;column-gap:32px;font-size:17px}
+.list b{font-weight:700}
+
+.band{min-height:min(88svh,820px);display:flex;align-items:center;justify-content:center;text-align:center}
+.band-body{padding:clamp(56px,8vw,96px) var(--gut);max-width:900px}
+.band h2,.close h2{font-variation-settings:'opsz' 144;font-weight:350;letter-spacing:-.02em;line-height:1.03;margin:22px auto 0}
+.band h2{font-size:clamp(36px,6vw,84px)}
+.band::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse 55% 45% at 50% 50%,rgba(18,28,36,.38),transparent 72%)}
+.band p{color:#EEF2F4;max-width:520px;margin:20px auto 0}
+
+.cards-wrap{padding:clamp(24px,4vw,56px) 0 0}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 var(--inset)}
+.card{position:relative;border-radius:var(--radius);overflow:hidden;min-height:clamp(440px,46vw,600px);display:flex;align-items:flex-end;color:var(--cream);isolation:isolate}
+.card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.card::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(18,28,36,.86) 0%,rgba(18,28,36,.62) 45%,rgba(18,28,36,.30) 100%);z-index:-1}
+.card-body{padding:clamp(24px,3vw,40px)}
+.card .star{margin:0 0 16px}
+.card h2{font-family:var(--display);font-variation-settings:'opsz' 96;font-weight:350;text-transform:uppercase;letter-spacing:.015em;font-size:clamp(26px,2.8vw,38px);line-height:1.08}
+.card .rule{margin:18px 0}
+.card p{color:#EEF2F4;max-width:440px;margin:0}
+
+.close{min-height:min(80svh,760px);display:flex;align-items:center;justify-content:center;text-align:center;margin-top:clamp(64px,9vw,120px)}
+.close h2{font-size:clamp(34px,5vw,72px);max-width:16ch}
+.close .contact{margin:18px 0 0;color:#EEF2F4}
+.close .contact a{color:var(--cream);display:inline-block;padding:10px 0}
+footer{padding:24px 0 44px;font-size:15px;color:var(--slate)}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer p{margin:0}
+
+@media (prefers-reduced-motion:no-preference){
+  html{scroll-behavior:smooth}
+  .hero>picture img{animation:settle 2.4s var(--ease) both}
+  @keyframes settle{from{transform:scale(1.06)}to{transform:scale(1)}}
+  .js .reveal{opacity:0;transform:translateY(16px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+  .js .reveal.in{opacity:1;transform:none}
+}
+
+@media (min-width:861px){#booking-row .figure{order:-1}}
+@media (max-width:860px){
+  .row{grid-template-columns:1fr;padding:56px 0}
+  .row.flip>.media{order:0}
+  .media{aspect-ratio:4/3}
+  .row-quem{grid-template-columns:1fr;gap:32px}
+  .portrait{aspect-ratio:1/1;max-width:220px;justify-self:start}
+  .cards{grid-template-columns:1fr}
+  .mensal-grid{grid-template-columns:1fr;gap:20px}
+}
+@media (max-width:640px){.list.cols{grid-template-columns:1fr}}
+@media (max-width:600px){
+  :root{--inset:8px;--radius:14px}
+  body{font-size:17px}
+  .nav{padding:16px}
+  .nav img{width:160px}
+  .actions .btn{flex:1 1 100%}
+  .bars li{grid-template-columns:120px 1fr 32px;gap:9px}
+  .bars .lbl{font-size:14px;line-height:1.3}
+  .stack::before,.stack::after{display:none}
+  footer .wrap{flex-direction:column;gap:6px}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="star" viewBox="0 0 24 24"><path d="M12 0c.6 6.4 5.6 11.4 12 12-6.4.6-11.4 5.6-12 12-.6-6.4-5.6-11.4-12-12C6.4 11.4 11.4 6.4 12 0z" fill="currentColor"/></symbol>
+</svg>
+
+<header class="panel hero on-photo">
+  <picture>
+    <source media="(max-width:900px)" srcset="assets/fotos/douro-anoitecer-1200.jpg">
+    <img src="assets/fotos/douro-anoitecer-2400.jpg" alt="" width="2400" height="1602" fetchpriority="high">
+  </picture>
+  <nav class="nav" aria-label="Principal">
+    <img src="assets/olhar-de-fora-cabecalho-negativo.svg" alt="Olhar de Fora" width="194" height="27">
+  </nav>
+  <div class="hero-body">
+    <svg class="star" width="22" height="22" aria-hidden="true"><use href="#star"/></svg>
+    <h1>A inteligência artificial recomenda o seu hotel na época baixa?</h1>
+    <p class="lede">Cada vez mais turistas perguntam ao ChatGPT onde ficar. Eu meço se o seu hotel aparece, e digo o que mudar para aparecer mais.</p>
+    <div class="offer">
+      <p class="price">Diagnóstico Época Baixa: 149&nbsp;€.</p>
+      <p class="terms">Entregue em 48 horas, em português. Só paga depois de o receber.</p>
+      <div class="actions">
+        <a class="btn btn-cream" href="mailto:henrique@olhardefora.pt?subject=Pedido%20-%20Diagn%C3%B3stico%20%C3%89poca%20Baixa">Pedir o diagnóstico</a>
+        <a class="btn btn-ghost" href="#exemplo">Ver um exemplo</a>
+      </div>
+      <p class="alt">ou escreva para <a href="mailto:henrique@olhardefora.pt">henrique@olhardefora.pt</a></p>
+    </div>
+  </div>
+  <a class="cue" href="#medida" aria-label="Descer para o exemplo de medição">
+    <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 7l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+  </a>
+</header>
+
+<main>
+  <section id="medida" class="statement" aria-label="Exemplo de medição">
+    <svg class="star" width="18" height="18" style="color:var(--ink)" aria-hidden="true"><use href="#star"/></svg>
+    <p>O seu hotel visto como o turista o vê. E o que mudar.</p>
+    <div class="stack reveal">
+      <figure class="figure" aria-labelledby="fig1">
+        <div class="fig-head">
+          <p class="fig-cap"><b>Figura 1</b> · Quantas vezes cada hotel é recomendado, em 180 respostas</p>
+          <span class="pill">Exemplo · dados fictícios</span>
+        </div>
+        <h2 class="fig-title" id="fig1">O hotel aparece <em>7 vezes</em> em 180 respostas. O vizinho mais visto aparece 41.</h2>
+        <ul class="bars">
+          <li class="me"><span class="lbl">O seu hotel</span><span class="track"><span class="bar" style="width:17.1%"></span></span><span class="val">7</span></li>
+          <li><span class="lbl">Concorrente A</span><span class="track"><span class="bar" style="width:100%"></span></span><span class="val">41</span></li>
+          <li><span class="lbl">Concorrente B</span><span class="track"><span class="bar" style="width:80.5%"></span></span><span class="val">33</span></li>
+          <li><span class="lbl">Concorrente C</span><span class="track"><span class="bar" style="width:53.7%"></span></span><span class="val">22</span></li>
+        </ul>
+        <p class="src">Como medimos: 20 perguntas de turistas, no ChatGPT, Perplexity e Gemini, cada uma feita 3 vezes. Dados fictícios, para mostrar a forma do diagnóstico.</p>
+      </figure>
+    </div>
+  </section>
+
+  <section class="wrap" aria-labelledby="quem">
+    <div class="row row-quem">
+      <div class="media portrait"><img src="assets/fotos/henrique-reis.jpg" alt="Henrique Reis, fundador da Olhar de Fora" width="640" height="800" loading="lazy" style="filter:none"></div>
+      <div class="copy">
+        <h2 class="title" id="quem">Quem sou</h2>
+        <span class="rule" aria-hidden="true"></span>
+        <p class="name">Henrique Reis</p>
+        <p>Fundador da Olhar de Fora, uma consultoria independente para hotéis. Mostro o que a inteligência artificial diz do seu hotel, e o que mudar.</p>
+        <p>Durante quase 5 anos trabalhei do lado de dentro das grandes plataformas. Pela TP, apoiei anunciantes da Meta, parceiros da Microsoft e a equipa de operações do Pinterest. Fui um dos dois agentes a treinar o Copilot da Microsoft num projeto-piloto.</p>
+        <p>Daí o nome: olho para o seu hotel de fora, como o turista e a IA o veem. Assino todos os diagnósticos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="exemplo" class="panel band on-photo" aria-labelledby="ex">
+    <picture>
+      <source media="(max-width:900px)" srcset="assets/fotos/douro-outono-1200.jpg">
+      <img src="assets/fotos/douro-outono-2400.jpg" alt="" width="2400" height="1583" loading="lazy">
+    </picture>
+    <div class="band-body">
+      <svg class="star" width="20" height="20" aria-hidden="true"><use href="#star"/></svg>
+      <h2 id="ex">Um diagnóstico completo, de um hotel real</h2>
+      <p>Um hotel no Douro, sem o nome. São as mesmas páginas que recebe.</p>
+      <div class="actions"><a class="btn btn-cream" href="exemplo.pdf">Abrir o exemplo (PDF)</a></div>
+    </div>
+  </section>
+
+  <section class="wrap" aria-labelledby="recebe">
+    <div class="row flip">
+      <div class="media"><img src="assets/fotos/algarve-sol-baixo-1400.jpg" alt="Praia do Algarve ao pôr do sol, entre falésias" width="1400" height="1050" loading="lazy"></div>
+      <div class="copy">
+        <h2 class="title" id="recebe">O que recebe por 149&nbsp;€</h2>
+        <span class="rule" aria-hidden="true"></span>
+        <ul class="list">
+          <li>20 perguntas de turistas no ChatGPT, Perplexity e Gemini, cada uma feita 3 vezes.</li>
+          <li>Quantas vezes o seu hotel aparece, e que concorrentes aparecem no seu lugar.</li>
+          <li>Até 10 correções, por ordem: Booking, TripAdvisor, Google e respostas a avaliações primeiro.</li>
+          <li>Uma nova descrição para a Booking, em português e inglês, pronta a colar.</li>
+          <li>Uma folha de tarefas para a receção ou para a agência.</li>
+          <li>Uma pergunta para o check-in, para contar os hóspedes que vêm pela IA.</li>
+          <li>Uma nova medição grátis 30 dias depois.</li>
+        </ul>
+        <p class="note">Em português, entregue em 48 horas. No máximo 5 por semana. O diagnóstico vale sozinho: não tem de contratar mais nada.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap mensal" aria-labelledby="mensal">
+    <div class="mensal-grid">
+      <div>
+        <p class="kicker">Opcional · Acompanhamento mensal</p>
+        <h2 class="title" id="mensal">Depois do diagnóstico</h2>
+        <span class="rule" aria-hidden="true"></span>
+        <p>Se quiser, aplico eu as correções e acompanho o hotel todos os meses. Sem fidelização: cancela quando quiser, com 30 dias de aviso.</p>
+        <p class="note">Só falamos disto depois do diagnóstico, se fizer sentido para si.</p>
+      </div>
+      <div>
+        <ul class="list cols">
+          <li><b>Booking e TripAdvisor.</b> Textos, dados e perguntas frequentes sempre atualizados.</li>
+          <li><b>Ficha do Google.</b> Dados, fotos, perguntas e duas publicações por mês.</li>
+          <li><b>Avaliações.</b> Até 30 respostas por mês, em português ou inglês.</li>
+          <li><b>Guias de viagem.</b> Pedidos de inclusão em guias e blogues da região.</li>
+          <li><b>Medição.</b> As mesmas perguntas no ChatGPT, Perplexity e Gemini, todos os meses.</li>
+          <li><b>Reunião.</b> 30 minutos por mês, com um relatório de uma página.</li>
+        </ul>
+        <p class="note">Não peço as suas senhas: o hotel cria-me um utilizador próprio e pode retirá-lo quando quiser. No site, faço eu as mudanças de texto, também com um utilizador próprio. Se o hotel tiver agência e preferir, envio-lhe as correções por escrito.</p>
+        <p><a href="mensal.html">Ver o acompanhamento mensal em detalhe</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" aria-labelledby="booking">
+    <div class="row" id="booking-row">
+      <div class="copy">
+        <h2 class="title" id="booking">Porquê a Booking e não o site</h2>
+        <span class="rule" aria-hidden="true"></span>
+        <p>Um estudo feito nos EUA (Local Falcon, setembro de 2026, quase 1.000 hotéis) diz que cerca de 6 em cada 10 fontes que o ChatGPT usa sobre hotéis são sites de reservas, como a Booking, e de avaliações. Os sites das cadeias de hotéis contam só cerca de 7&nbsp;%. <a href="https://www.localfalcon.com/research/the-hotel-ai-visibility-index">Ler o estudo</a>. A empresa que fez o estudo vende ferramentas de medição.</p>
+        <p>As agências costumam tratar do site e dos anúncios. Eu trato da Booking, do TripAdvisor, da ficha do Google e das avaliações. O diagnóstico não mexe no seu site: as correções do site só as faço no acompanhamento mensal.</p>
+      </div>
+      <figure class="figure" aria-labelledby="fig2cap">
+        <p class="fig-cap" id="fig2cap"><b>Figura 2</b> · Fontes citadas pelo ChatGPT em respostas sobre hotéis, em % do total</p>
+        <ul class="bars" style="margin-top:14px">
+          <li><span class="lbl">Sites de reservas</span><span class="track"><span class="bar" style="width:86.5%"></span></span><span class="val">35</span></li>
+          <li><span class="lbl">Sites de avaliações</span><span class="track"><span class="bar" style="width:73.3%"></span></span><span class="val">29</span></li>
+          <li><span class="lbl">Sites das cadeias</span><span class="track"><span class="bar" style="width:17.3%"></span></span><span class="val">7</span></li>
+        </ul>
+        <p class="src">Fonte: Local Falcon, The Hotel AI Visibility Index, 17 de setembro de 2026: 998 hotéis nos EUA, 84.204 pesquisas. Escala de 0 a 40&nbsp;%. Valores arredondados (34,6&nbsp;%, 29,3&nbsp;%, 6,9&nbsp;%).</p>
+      </figure>
+    </div>
+  </section>
+
+  <div class="cards-wrap">
+    <div class="cards">
+      <section class="card on-photo reveal" aria-labelledby="paga">
+        <img src="assets/fotos/lisboa-rua-1400.jpg" alt="" width="1400" height="933" loading="lazy">
+        <div class="card-body">
+          <svg class="star" width="18" height="18" aria-hidden="true"><use href="#star"/></svg>
+          <h2 id="paga">Como paga</h2>
+          <span class="rule" aria-hidden="true"></span>
+          <p>Só depois de receber o diagnóstico, por transferência, com fatura e NIF.</p>
+        </div>
+      </section>
+      <section class="card on-photo reveal" aria-labelledby="limites">
+        <img src="assets/fotos/porto-noite-1200.jpg" alt="" width="1200" height="800" loading="lazy">
+        <div class="card-body">
+          <svg class="star" width="18" height="18" aria-hidden="true"><use href="#star"/></svg>
+          <h2 id="limites">O que não prometo</h2>
+          <span class="rule" aria-hidden="true"></span>
+          <p>Ninguém controla as respostas da IA. Não garanto que o hotel apareça, nem mais reservas. Mostro o que mudar e meço o resultado.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <section class="panel close on-photo" aria-labelledby="contacto">
+    <picture>
+      <source media="(max-width:900px)" srcset="assets/fotos/porto-rabelos-1200.jpg">
+      <img src="assets/fotos/porto-rabelos-2400.jpg" alt="" width="2400" height="1600" loading="lazy">
+    </picture>
+    <div class="band-body">
+      <svg class="star" width="20" height="20" aria-hidden="true"><use href="#star"/></svg>
+      <h2 id="contacto">Diagnóstico Época Baixa: 149&nbsp;€. Só paga depois de o receber.</h2>
+      <div class="actions"><a class="btn btn-cream" href="mailto:henrique@olhardefora.pt?subject=Pedido%20-%20Diagn%C3%B3stico%20%C3%89poca%20Baixa">Pedir o diagnóstico</a></div>
+      <p class="contact"><a href="mailto:henrique@olhardefora.pt">henrique@olhardefora.pt</a> · <a href="tel:+351915611024">915 611 024</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Olhar de Fora · Henrique Reis · NIF&nbsp;222&nbsp;788&nbsp;992</p>
+    <p>Os contactos dos hotéis vêm dos seus sites públicos. Para não receber mais emails, basta pedir.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  if(!('IntersectionObserver' in window))return;
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  document.documentElement.classList.add('js');
+  var els=document.querySelectorAll('.reveal');
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{rootMargin:'0px 0px -8% 0px'});
+  els.forEach(function(el){io.observe(el);});
+  setTimeout(function(){els.forEach(function(el){el.classList.add('in');});},4000);
+})();
+</script>
+</body>
+</html>

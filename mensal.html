@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olhar de Fora · Acompanhamento mensal</title>
+<meta name="description" content="O acompanhamento mensal da Olhar de Fora, em detalhe: o que inclui, como corre o mês, acesso às contas e cancelamento. Só existe se o pedir.">
+<meta property="og:title" content="Olhar de Fora · Acompanhamento mensal">
+<meta property="og:description" content="Booking, TripAdvisor, Google, avaliações e site do hotel, todos os meses, com uma medição e uma reunião de 30 minutos. Sem fidelização.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://olhardefora.pt/mensal.html">
+<meta property="og:image" content="https://olhardefora.pt/assets/partilha.png">
+<meta name="theme-color" content="#F7F3EC">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1F3A4D;--ink-deep:#16293A;--terra:#A84A28;--slate:#5B6B75;--cream:#F7F3EC;--sand:#EDE6DA;
+  --paper:#FFFFFF;--hair:#DCD5C8;--apricot:#F2B49A;
+  --inset:12px;--radius:16px;--wrap:1160px;--gut:clamp(20px,4vw,48px);
+  --display:'Fraunces',Georgia,serif;--text:'Source Sans 3',system-ui,sans-serif;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--text);font-size:18px;line-height:1.6;font-variant-numeric:tabular-nums lining-nums}
+::selection{background:var(--apricot);color:var(--ink)}
+img{display:block;max-width:100%}
+a{color:var(--ink);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:4px}
+.on-photo :focus-visible{outline-color:var(--cream)}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
+p{margin:0 0 14px;text-wrap:pretty}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
+.star{display:block;margin:0 auto}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:6px;font-weight:600;font-size:17px;text-decoration:none;transition:background-color .2s var(--ease),border-color .2s var(--ease)}
+.btn-cream{background:var(--cream);color:var(--ink-deep)}
+.btn-cream:hover{background:var(--paper)}
+.btn-ghost{border:1px solid rgba(247,243,236,.7);color:var(--cream)}
+.btn-ghost:hover{background:rgba(247,243,236,.12);border-color:var(--cream)}
+.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:24px}
+
+.panel{position:relative;margin:var(--inset);border-radius:var(--radius);overflow:hidden;color:var(--cream);isolation:isolate}
+.panel>picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.panel::after{content:"";position:absolute;inset:0;background:rgba(18,28,36,.5);z-index:-1}
+
+.top{min-height:min(62svh,600px);display:flex;flex-direction:column}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px clamp(18px,3vw,36px)}
+.nav img{width:200px;height:auto}
+.nav .back{color:var(--cream);font-size:16px;padding:10px 0}
+.top-body{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px var(--gut) 56px}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);margin:0 0 12px}
+.top h1{font-size:clamp(38px,5.6vw,76px);line-height:1.04;letter-spacing:-.02em;font-variation-settings:'opsz' 144;font-weight:350;max-width:16ch;margin-top:22px}
+.top .lede{max-width:600px;margin:24px auto 0;color:#EEF2F4;font-size:clamp(17px,1.4vw,19px)}
+
+.intro{text-align:center;padding:clamp(64px,9vw,112px) var(--gut) clamp(24px,4vw,48px)}
+.intro p{font-family:var(--display);font-variation-settings:'opsz' 72;font-weight:350;font-size:clamp(24px,3vw,36px);line-height:1.25;letter-spacing:-.01em;max-width:28ch;margin:22px auto 0;text-wrap:balance}
+.intro .note{font-family:var(--text);font-size:18px;letter-spacing:0;max-width:none;margin-top:18px}
+
+.block{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.4fr);gap:clamp(32px,6vw,96px);padding:clamp(44px,6vw,72px) 0;border-top:1px solid var(--hair)}
+.title{font-family:var(--display);font-variation-settings:'opsz' 96;font-weight:350;text-transform:uppercase;letter-spacing:.015em;font-size:clamp(24px,2.6vw,34px);line-height:1.08;font-variant-numeric:proportional-nums lining-nums}
+.rule{display:block;width:48px;height:1px;background:currentColor;margin:22px 0 0;opacity:.6}
+.list{list-style:none;margin:0 0 22px;padding:0;border-top:1px solid var(--hair)}
+.list li{padding:12px 0;border-bottom:1px solid var(--hair)}
+.list b{font-weight:700}
+.steps{counter-reset:s;list-style:none;margin:0 0 22px;padding:0}
+.steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:8px;padding:12px 0;border-bottom:1px solid var(--hair)}
+.steps li:first-child{border-top:1px solid var(--hair)}
+.steps li::before{content:counter(s);font-family:var(--display);font-weight:500;font-size:22px;line-height:1.3;color:var(--terra)}
+.steps b{font-weight:700}
+.steps .get{display:block;color:var(--slate);font-size:16px;margin-top:4px}
+.group{font-family:var(--text);font-size:14px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--slate);margin:0 0 10px}
+.steps+.group{margin-top:32px}
+.note{color:var(--slate)}
+
+.close{min-height:min(70svh,640px);display:flex;align-items:center;justify-content:center;text-align:center;margin-top:clamp(48px,7vw,96px)}
+.band-body{padding:clamp(56px,8vw,96px) var(--gut);max-width:900px}
+.close h2{font-variation-settings:'opsz' 144;font-weight:350;letter-spacing:-.02em;line-height:1.05;font-size:clamp(32px,4.6vw,64px);max-width:18ch;margin:22px auto 0}
+.close p{color:#EEF2F4;max-width:520px;margin:20px auto 0}
+footer{padding:24px 0 44px;font-size:15px;color:var(--slate)}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer p{margin:0}
+
+@media (max-width:860px){.block{grid-template-columns:1fr;gap:20px}}
+@media (max-width:600px){
+  :root{--inset:8px;--radius:14px}
+  body{font-size:17px}
+  .nav{padding:16px}
+  .nav img{width:150px}
+  .actions .btn{flex:1 1 100%}
+  footer .wrap{flex-direction:column;gap:6px}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="star" viewBox="0 0 24 24"><path d="M12 0c.6 6.4 5.6 11.4 12 12-6.4.6-11.4 5.6-12 12-.6-6.4-5.6-11.4-12-12C6.4 11.4 11.4 6.4 12 0z" fill="currentColor"/></symbol>
+</svg>
+
+<header class="panel top on-photo">
+  <picture>
+    <source media="(max-width:900px)" srcset="assets/fotos/douro-outono-1200.jpg">
+    <img src="assets/fotos/douro-outono-2400.jpg" alt="" width="2400" height="1583">
+  </picture>
+  <nav class="nav" aria-label="Principal">
+    <a href="./"><img src="assets/olhar-de-fora-cabecalho-negativo.svg" alt="Olhar de Fora, voltar à página principal" width="194" height="27"></a>
+    <a class="back" href="./#mensal">← Voltar</a>
+  </nav>
+  <div class="top-body">
+    <svg class="star" width="22" height="22" aria-hidden="true"><use href="#star"/></svg>
+    <h1>Acompanhamento mensal, em detalhe</h1>
+    <p class="lede">Um serviço opcional, depois do diagnóstico. Aqui está tudo o que faço, todos os meses, e as regras do serviço. Para ler com calma, antes de decidir.</p>
+  </div>
+</header>
+
+<main>
+  <section class="intro" aria-label="Em resumo">
+    <svg class="star" width="18" height="18" style="color:var(--ink)" aria-hidden="true"><use href="#star"/></svg>
+    <p>Todos os meses, cuido da forma como o seu hotel aparece na Booking, no TripAdvisor, no Google e nas avaliações. Meço o resultado e mostro-lhe os números.</p>
+    <p class="note">Só existe se o pedir. O diagnóstico vale sozinho: não tem de contratar mais nada.</p>
+  </section>
+
+  <div class="wrap">
+    <section class="block" aria-labelledby="inclui">
+      <div>
+        <h2 class="title" id="inclui">O que está incluído</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <div>
+        <ul class="list">
+          <li><b>Booking.</b> Textos, dados, fotos e perguntas frequentes atualizados. No primeiro mês, uma revisão completa. Depois, ajustes todos os meses. As fotos são enviadas pelo hotel.</li>
+          <li><b>TripAdvisor.</b> Textos e dados atualizados, como na Booking.</li>
+          <li><b>Ficha do Google.</b> Dados, horários, fotos, perguntas e respostas, e 2 publicações por mês.</li>
+          <li><b>Avaliações.</b> Até 30 respostas por mês, na Booking, no Google e no TripAdvisor, em português ou inglês.</li>
+          <li><b>Guias de viagem.</b> 2 pedidos por mês para incluir o hotel em guias, blogues e listas de viagem da região.</li>
+          <li><b>Site do hotel.</b> Faço eu as mudanças de texto. Se o hotel tiver agência e preferir, envio-lhe as correções por escrito.</li>
+          <li><b>Medição.</b> As mesmas perguntas do diagnóstico, no ChatGPT, Perplexity e Gemini, uma vez por mês.</li>
+          <li><b>Reunião.</b> 30 minutos por vídeo, com um relatório de uma página e um resumo por email no mesmo dia.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="mes">
+      <div>
+        <h2 class="title" id="mes">Como corre o mês</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <div>
+        <h3 class="group">No primeiro mês</h3>
+        <ol class="steps">
+          <li><span><b>Semana 1 · Arranque.</b> O hotel cria-me os utilizadores na Booking, no Google, no TripAdvisor e no site. Combinamos o tom das respostas às avaliações.</span></li>
+          <li><span><b>Semanas 1 a 4 · Revisão completa.</b> Reviso a Booking e o TripAdvisor de ponta a ponta: textos, dados, fotos e perguntas frequentes.<span class="get">Recebe: os textos novos para aprovar. Só publico depois do seu sim.</span></span></li>
+        </ol>
+        <h3 class="group">Todos os meses</h3>
+        <ol class="steps">
+          <li><span><b>Semana 1 · Medição.</b> Faço as mesmas perguntas do diagnóstico no ChatGPT, Perplexity e Gemini, e conto as vezes que o hotel aparece.<span class="get">Recebe: um relatório de uma página com os números.</span></span></li>
+          <li><span><b>Semana 1 · Reunião de 30 minutos, por vídeo.</b> Vemos os números e o que fiz no mês anterior. Escolhemos juntos as 3 tarefas para as semanas seguintes.<span class="get">Recebe: um resumo por email, no mesmo dia.</span></span></li>
+          <li><span><b>Semanas 2 a 4 · Trabalho.</b> Faço as 3 tarefas, respondo às avaliações (até 30) e envio 2 pedidos a guias de viagem.<span class="get">Recebe: as respostas a avaliações negativas para aprovar antes de as publicar.</span></span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="contas">
+      <div>
+        <h2 class="title" id="contas">Sem partilhar senhas</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <div>
+        <p>O hotel não me dá a sua senha. Em cada plataforma, cria-me um utilizador próprio e pode retirá-lo quando quiser.</p>
+        <ul class="list">
+          <li><b>Booking.</b> Só com permissão para conteúdos e avaliações. Sem acesso a tarifas, pagamentos nem dados bancários.</li>
+          <li><b>Google.</b> Gestor da ficha do Google.</li>
+          <li><b>TripAdvisor.</b> Gestor no centro de gestão do alojamento.</li>
+          <li><b>Site do hotel.</b> Um utilizador só para editar textos.</li>
+        </ul>
+        <p class="note">Se o hotel não conseguir criar o utilizador, envio-lhe os textos prontos a colar, e o hotel publica.</p>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="aprova">
+      <div>
+        <h2 class="title" id="aprova">O que aprova</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <div>
+        <ul class="list">
+          <li><b>Textos novos de descrição.</b> Envio-lhe antes de publicar. Só publico depois do seu sim.</li>
+          <li><b>Respostas a avaliações positivas e neutras.</b> Publico eu, no tom que aprovar no primeiro mês.</li>
+          <li><b>Respostas a avaliações negativas.</b> Queixas, pedidos de reembolso ou conflitos: envio-lhe primeiro e espero pelo seu sim.</li>
+        </ul>
+        <p class="note">Se preferir aprovar tudo, também pode. Nesse caso, o prazo das respostas depende de si.</p>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="hotel">
+      <div>
+        <h2 class="title" id="hotel">O que peço ao hotel</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <div>
+        <ul class="list">
+          <li>Criar os utilizadores na primeira semana.</li>
+          <li>Enviar fotos e novidades quando as houver: obras, novos serviços, eventos.</li>
+          <li>Estar na reunião mensal de 30 minutos, ou mandar alguém que decida.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="fora">
+      <div>
+        <h2 class="title" id="fora">O que não está incluído</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <div>
+        <ul class="list">
+          <li>No site: design, mudanças técnicas e páginas novas. Só mudo textos.</li>
+          <li>Redes sociais, publicidade paga e fotografia.</li>
+          <li>Preços, disponibilidade, tarifas e políticas de cancelamento. Nunca lhes mexo.</li>
+          <li>Promessas de aparecer na inteligência artificial. Prometo o trabalho e uma medição honesta.</li>
+        </ul>
+        <p class="note">Se num mês houver mais de 30 avaliações para responder, aviso-o e combinamos antes.</p>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="cancelar">
+      <div>
+        <h2 class="title" id="cancelar">Sem fidelização</h2>
+        <span class="rule" aria-hidden="true"></span>
+      </div>
+      <div>
+        <p>Cancela quando quiser, por email, com 30 dias de aviso. O mês em curso é pago e fica terminado.</p>
+        <p class="note">O preço combinamos numa conversa curta, depois de receber o diagnóstico.</p>
+      </div>
+    </section>
+  </div>
+
+  <section class="panel close on-photo" aria-labelledby="contacto">
+    <picture>
+      <source media="(max-width:900px)" srcset="assets/fotos/porto-rabelos-1200.jpg">
+      <img src="assets/fotos/porto-rabelos-2400.jpg" alt="" width="2400" height="1600" loading="lazy">
+    </picture>
+    <div class="band-body">
+      <svg class="star" width="20" height="20" aria-hidden="true"><use href="#star"/></svg>
+      <h2 id="contacto">Tudo começa pelo diagnóstico.</h2>
+      <p>Primeiro mostro-lhe onde o hotel está. Depois, se quiser, tratamos disto todos os meses.</p>
+      <div class="actions">
+        <a class="btn btn-cream" href="./">Ver o diagnóstico</a>
+        <a class="btn btn-ghost" href="mailto:henrique@olhardefora.pt?subject=Acompanhamento%20mensal">Falar sobre o acompanhamento</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Olhar de Fora · Henrique Reis · NIF&nbsp;222&nbsp;788&nbsp;992</p>
+    <p>Os contactos dos hotéis vêm dos seus sites públicos. Para não receber mais emails, basta pedir.</p>
+  </div>
+</footer>
+
+</body>
+</html>
