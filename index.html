@@ -47,6 +47,9 @@ p{margin:0 0 14px;text-wrap:pretty}
 .btn-cream:hover{background:var(--paper)}
 .btn-ghost{border:1px solid rgba(247,243,236,.7);color:var(--cream)}
 .btn-ghost:hover{background:rgba(247,243,236,.12);border-color:var(--cream)}
+.btn-ink{background:var(--ink);color:var(--cream)}
+.btn-ink:hover{background:var(--ink-deep)}
+.actions.start{justify-content:flex-start}
 
 .panel{position:relative;margin:var(--inset);border-radius:var(--radius);overflow:hidden;color:var(--cream);isolation:isolate}
 .panel>picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
@@ -56,7 +59,7 @@ p{margin:0 0 14px;text-wrap:pretty}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px clamp(18px,3vw,36px)}
 .nav img{width:200px;height:auto}
 .hero-body{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px var(--gut) 40px}
-.hero h1{font-size:clamp(42px,7.4vw,108px);line-height:1.02;letter-spacing:-.02em;font-variation-settings:'opsz' 144;font-weight:350;max-width:13ch;margin-top:22px}
+.hero h1{font-size:clamp(42px,min(7.4vw,10vh),108px);line-height:1.02;letter-spacing:-.02em;font-variation-settings:'opsz' 144;font-weight:350;max-width:13ch;margin-top:22px}
 .hero .lede{max-width:560px;margin:26px auto 0;color:#EEF2F4;font-size:clamp(17px,1.4vw,19px)}
 .hero .offer{margin-top:26px}
 .hero .price{font-family:var(--display);font-size:clamp(22px,2vw,26px);font-weight:500;margin:0}
@@ -213,16 +216,16 @@ footer p{margin:0}
       <figure class="figure" aria-labelledby="fig1">
         <div class="fig-head">
           <p class="fig-cap"><b>Figura 1</b> · Quantas vezes cada hotel é recomendado, em 180 respostas</p>
-          <span class="pill">Exemplo · dados fictícios</span>
+          <span class="pill">Exemplo real · sem o nome</span>
         </div>
-        <h2 class="fig-title" id="fig1">O hotel aparece <em>7 vezes</em> em 180 respostas. O vizinho mais visto aparece 41.</h2>
+        <h2 class="fig-title" id="fig1">O hotel aparece <em>9 vezes</em> em 180 respostas. O vizinho mais visto aparece 60.</h2>
         <ul class="bars">
-          <li class="me"><span class="lbl">O seu hotel</span><span class="track"><span class="bar" style="width:17.1%"></span></span><span class="val">7</span></li>
-          <li><span class="lbl">Concorrente A</span><span class="track"><span class="bar" style="width:100%"></span></span><span class="val">41</span></li>
-          <li><span class="lbl">Concorrente B</span><span class="track"><span class="bar" style="width:80.5%"></span></span><span class="val">33</span></li>
-          <li><span class="lbl">Concorrente C</span><span class="track"><span class="bar" style="width:53.7%"></span></span><span class="val">22</span></li>
+          <li class="me"><span class="lbl">Hotel X</span><span class="track"><span class="bar" style="width:15%"></span></span><span class="val">9</span></li>
+          <li><span class="lbl">Concorrente A</span><span class="track"><span class="bar" style="width:100%"></span></span><span class="val">60</span></li>
+          <li><span class="lbl">Concorrente B</span><span class="track"><span class="bar" style="width:90%"></span></span><span class="val">54</span></li>
+          <li><span class="lbl">Concorrente C</span><span class="track"><span class="bar" style="width:63.3%"></span></span><span class="val">38</span></li>
         </ul>
-        <p class="src">Como medimos: 20 perguntas de turistas, no ChatGPT, Perplexity e Gemini, cada uma feita 3 vezes. Dados fictícios, para mostrar a forma do diagnóstico.</p>
+        <p class="src">Como medimos: 20 perguntas de turistas, no ChatGPT, Perplexity e Gemini, cada uma feita 3 vezes, a 19, 22 e 24 nov 2026. Um hotel real no Douro, sem o nome. O diagnóstico completo está mais abaixo.</p>
       </figure>
     </div>
   </section>
@@ -270,6 +273,7 @@ footer p{margin:0}
           <li>Uma nova medição grátis 30 dias depois.</li>
         </ul>
         <p class="note">Em português, entregue em 48 horas. No máximo 5 por semana. O diagnóstico vale sozinho: não tem de contratar mais nada.</p>
+        <div class="actions start"><a class="btn btn-ink" href="mailto:henrique@olhardefora.pt?subject=Pedido%20-%20Diagn%C3%B3stico%20%C3%89poca%20Baixa">Pedir o diagnóstico</a></div>
       </div>
     </div>
   </section>
