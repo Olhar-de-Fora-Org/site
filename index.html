@@ -37,6 +37,7 @@ a:hover{text-decoration-thickness:2px}
 a[href^="tel:"]{white-space:nowrap}
 :focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:4px}
 .on-photo :focus-visible{outline-color:var(--cream)}
+a.tap{padding-block:11px}
 h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
 p{margin:0 0 14px;text-wrap:pretty}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
@@ -130,6 +131,7 @@ p{margin:0 0 14px;text-wrap:pretty}
 .card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
 .card::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(18,28,36,.86) 0%,rgba(18,28,36,.62) 45%,rgba(18,28,36,.30) 100%);z-index:-1}
 .card-body{padding:clamp(24px,3vw,40px)}
+.card.dim::after{background:linear-gradient(to top,rgba(18,28,36,.92) 0%,rgba(18,28,36,.80) 50%,rgba(18,28,36,.55) 100%)}
 .card .star{margin:0 0 16px}
 .card h2{font-family:var(--display);font-variation-settings:'opsz' 96;font-weight:350;text-transform:uppercase;letter-spacing:.015em;font-size:clamp(26px,2.8vw,38px);line-height:1.08}
 .card .rule{margin:18px 0}
@@ -200,7 +202,7 @@ footer p{margin:0}
         <a class="btn btn-cream" href="mailto:henrique@olhardefora.pt?subject=Pedido%20-%20Diagn%C3%B3stico%20%C3%89poca%20Baixa">Pedir o diagnóstico</a>
         <a class="btn btn-ghost" href="#exemplo">Ver um exemplo</a>
       </div>
-      <p class="alt">ou escreva para <a href="mailto:henrique@olhardefora.pt">henrique@olhardefora.pt</a></p>
+      <p class="alt">ou escreva para <a class="tap" href="mailto:henrique@olhardefora.pt">henrique@olhardefora.pt</a></p>
     </div>
   </div>
   <a class="cue" href="#medida" aria-label="Descer para o exemplo de medição">
@@ -226,6 +228,26 @@ footer p{margin:0}
           <li><span class="lbl">Concorrente C</span><span class="track"><span class="bar" style="width:63.3%"></span></span><span class="val">38</span></li>
         </ul>
         <p class="src">Como medimos: 20 perguntas de turistas, no ChatGPT, Perplexity e Gemini, cada uma feita 3 vezes, a 19, 22 e 24 nov 2026. Um hotel real no Douro, sem o nome. O diagnóstico completo está mais abaixo.</p>
+      </figure>
+    </div>
+  </section>
+
+  <section class="wrap" aria-labelledby="booking">
+    <div class="row" id="booking-row">
+      <div class="copy">
+        <h2 class="title" id="booking">Porquê a Booking e não o site</h2>
+        <span class="rule" aria-hidden="true"></span>
+        <p>Um estudo feito nos EUA (Local Falcon, setembro de 2026, quase 1.000 hotéis) diz que cerca de 6 em cada 10 fontes que o ChatGPT usa sobre hotéis são sites de reservas, como a Booking, e de avaliações. Os sites das cadeias de hotéis contam só cerca de 7&nbsp;%. <a class="tap" href="https://www.localfalcon.com/research/the-hotel-ai-visibility-index">Ler o estudo</a>. A empresa que fez o estudo vende ferramentas de medição.</p>
+        <p>As agências costumam tratar do site e dos anúncios. Eu trato da Booking, do TripAdvisor, da ficha do Google e das avaliações. O diagnóstico não mexe no seu site: as correções do site só as faço no acompanhamento mensal.</p>
+      </div>
+      <figure class="figure" aria-labelledby="fig2cap">
+        <p class="fig-cap" id="fig2cap"><b>Figura 2</b> · Fontes citadas pelo ChatGPT em respostas sobre hotéis, em % do total</p>
+        <ul class="bars" style="margin-top:14px">
+          <li><span class="lbl">Sites de reservas</span><span class="track"><span class="bar" style="width:86.5%"></span></span><span class="val">35</span></li>
+          <li><span class="lbl">Sites de avaliações</span><span class="track"><span class="bar" style="width:73.3%"></span></span><span class="val">29</span></li>
+          <li><span class="lbl">Sites das cadeias</span><span class="track"><span class="bar" style="width:17.3%"></span></span><span class="val">7</span></li>
+        </ul>
+        <p class="src">Fonte: Local Falcon, The Hotel AI Visibility Index, 17 de setembro de 2026: 998 hotéis nos EUA, 84.204 pesquisas. Escala de 0 a 40&nbsp;%. Valores arredondados (34,6&nbsp;%, 29,3&nbsp;%, 6,9&nbsp;%).</p>
       </figure>
     </div>
   </section>
@@ -297,28 +319,8 @@ footer p{margin:0}
           <li><b>Reunião.</b> 30 minutos por mês, com um relatório de uma página.</li>
         </ul>
         <p class="note">Não peço as suas senhas: o hotel cria-me um utilizador próprio e pode retirá-lo quando quiser. No site, faço eu as mudanças de texto, também com um utilizador próprio. Se o hotel tiver agência e preferir, envio-lhe as correções por escrito.</p>
-        <p><a href="mensal.html">Ver o acompanhamento mensal em detalhe</a></p>
+        <p><a class="tap" href="mensal.html">Ver o acompanhamento mensal em detalhe</a></p>
       </div>
-    </div>
-  </section>
-
-  <section class="wrap" aria-labelledby="booking">
-    <div class="row" id="booking-row">
-      <div class="copy">
-        <h2 class="title" id="booking">Porquê a Booking e não o site</h2>
-        <span class="rule" aria-hidden="true"></span>
-        <p>Um estudo feito nos EUA (Local Falcon, setembro de 2026, quase 1.000 hotéis) diz que cerca de 6 em cada 10 fontes que o ChatGPT usa sobre hotéis são sites de reservas, como a Booking, e de avaliações. Os sites das cadeias de hotéis contam só cerca de 7&nbsp;%. <a href="https://www.localfalcon.com/research/the-hotel-ai-visibility-index">Ler o estudo</a>. A empresa que fez o estudo vende ferramentas de medição.</p>
-        <p>As agências costumam tratar do site e dos anúncios. Eu trato da Booking, do TripAdvisor, da ficha do Google e das avaliações. O diagnóstico não mexe no seu site: as correções do site só as faço no acompanhamento mensal.</p>
-      </div>
-      <figure class="figure" aria-labelledby="fig2cap">
-        <p class="fig-cap" id="fig2cap"><b>Figura 2</b> · Fontes citadas pelo ChatGPT em respostas sobre hotéis, em % do total</p>
-        <ul class="bars" style="margin-top:14px">
-          <li><span class="lbl">Sites de reservas</span><span class="track"><span class="bar" style="width:86.5%"></span></span><span class="val">35</span></li>
-          <li><span class="lbl">Sites de avaliações</span><span class="track"><span class="bar" style="width:73.3%"></span></span><span class="val">29</span></li>
-          <li><span class="lbl">Sites das cadeias</span><span class="track"><span class="bar" style="width:17.3%"></span></span><span class="val">7</span></li>
-        </ul>
-        <p class="src">Fonte: Local Falcon, The Hotel AI Visibility Index, 17 de setembro de 2026: 998 hotéis nos EUA, 84.204 pesquisas. Escala de 0 a 40&nbsp;%. Valores arredondados (34,6&nbsp;%, 29,3&nbsp;%, 6,9&nbsp;%).</p>
-      </figure>
     </div>
   </section>
 
@@ -333,7 +335,7 @@ footer p{margin:0}
           <p>Só depois de receber o diagnóstico, por transferência, com fatura e NIF.</p>
         </div>
       </section>
-      <section class="card on-photo reveal" aria-labelledby="limites">
+      <section class="card dim on-photo reveal" aria-labelledby="limites">
         <img src="assets/fotos/porto-noite-1200.jpg" alt="" width="1200" height="800" loading="lazy">
         <div class="card-body">
           <svg class="star" width="18" height="18" aria-hidden="true"><use href="#star"/></svg>
